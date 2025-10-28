@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #242424;
 }
 
 h1 {
@@ -79,12 +80,16 @@ li {
   font-weight: 600;
   padding: 10px;
   border-radius: 8px;
-  background-color: #333333;  
+  background-color: #a7a5a5;  
   border: #242424;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+p{
+  color: #ffffff;
 }
 
 .text{
