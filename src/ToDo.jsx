@@ -53,8 +53,7 @@ const ToDo = () => {
             <input type="text" placeholder='Enter to do task...' value={newTodo} onChange={handleInputChange}/>
             <button className="add-button" onClick={addTodo}>Add Task</button>
         </div>
-        <table>
-        <ul>
+        <ol>
             {todos.map((todo, index) => (
                 <li key={index}>
                     <p className='tasks'>{todo}</p>
@@ -63,8 +62,7 @@ const ToDo = () => {
                     <button className='movedown-button' onClick={() => moveDown(index)}>Move Down ⬇️</button>
                 </li>
             ))} 
-        </ul>
-        </table>
+        </ol>
 
     </div>
     )
