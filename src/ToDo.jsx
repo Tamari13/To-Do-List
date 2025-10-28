@@ -54,7 +54,7 @@ const ToDo = () => {
             <button className="add-button" onClick={addTodo}>Add Task</button>
         </div>
 
-        <ol>
+        <ul>
             {todos.map((todo, index) => (
                 <li key={index}>
                     <p className='tasks'>{todo}</p>
@@ -63,7 +63,7 @@ const ToDo = () => {
                     <button className='movedown-button' onClick={() => moveDown(index)}>Move Down ⬇️</button>
                 </li>
             ))} 
-        </ol>
+        </ul>
 
     </div>
     )
